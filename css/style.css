@@ -210,10 +210,10 @@ h6 {
 }
 .swiper-container .swiper-button-next,
 .swiper-container .swiper-button-prev {
-  z-index: 0;
+  z-index: 1;
 }
 .swiper-container .swiper-pagination {
-  z-index: 0;
+  z-index: 1;
   bottom: 20px;
 }
 
