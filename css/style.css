@@ -208,11 +208,13 @@ h6 {
   font-size: 50px;
   font-weight: 900;
 }
-.swiper-button-next,
-.swiper-button-prev {
+
+.swiper-container .swiper-button-next,
+.swiper-container .swiper-button-prev {
   z-index: 1;
 }
-.swiper-pagination {
+
+.swiper-container .swiper-pagination {
   z-index: 1;
   bottom: 20px;
 }
@@ -1095,6 +1097,11 @@ body {
 }
 
 @media (max-width: 1070px) {
+  .nav__link:hover {
+    color: inherit;
+    border-bottom: none;
+  }
+
   .nav-burger {
     display: block;
     position: relative;
