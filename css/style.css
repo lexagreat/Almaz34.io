@@ -208,11 +208,11 @@ h6 {
   font-size: 50px;
   font-weight: 900;
 }
-.swiper-container .swiper-button-next,
-.swiper-container .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
   z-index: 1;
 }
-.swiper-container .swiper-pagination {
+.swiper-pagination {
   z-index: 1;
   bottom: 20px;
 }
